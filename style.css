@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: font-family 'Nunito', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+header section{
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 150px;
+}
+header nav{
+    width: 40vw;
+    padding-right: 150px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul li{
+    width: 10vw;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;    
+}
+main section{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+.ladoesquerdo{
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+}
+.linkamarelo{
+    background-color: #FCA60F;
+    width: 15vw;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+}
+.ladodireito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    @media screen and (max-width:500px) {
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            height: 20vh;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        header section{
+            width: 40vw;
+            padding: 0;
+        }
+        .logo picture{
+            display: flex;
+            width: px;
+        }        
+        .navegação nav {
+            width: 60vw;
+        }
+        .navegação nav ul{
+            width: 60vw;
+        
+        }
+        .ladoesquerdo{
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 25px;
+            text-align: center;
+        }
+        .linkamarelo{
+            width: 45vw;
+        }
+        .ladodireito{
+            display: none;
+        }
+        footer{
+            display: none;
+        }
+    }
